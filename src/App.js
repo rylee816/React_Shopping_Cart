@@ -26,6 +26,12 @@ const items = [
     name: "Eggs",
     price: 2.75,
     qty: 0
+  },
+  {
+    id: 5,
+    name: "Butter",
+    price: 4.15,
+    qty: 0
   }
 ];
 

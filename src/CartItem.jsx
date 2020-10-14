@@ -6,6 +6,9 @@ function CartItem({ id, name, price, qty, updateQty }) {
   function increase() {
     setAmount(amount + 1);
     updateQty(id, qty + 1);
+    if (qty === 5) {
+      alert("You don't need that many, fatass.");
+    }
   }
 
   function decrease() {
